@@ -5,7 +5,7 @@
     <groupId>net.smartcosmos</groupId>
     <artifactId>aws-sns-notification-service</artifactId>
     <packaging>jar</packaging>
-    <version>1.2-SNAPSHOT</version>
+    <version>1.2</version>
 
     <name>AWS SNS Notification Services</name>
     <description>AWS SNS Notification Service Plugin</description>
@@ -48,7 +48,7 @@
         <url>https://github.com/SMARTRACTECHNOLOGY/smartcosmos-service-aws-notification</url>
         <connection>scm:git:git://github.com/SMARTRACTECHNOLOGY/smartcosmos-service-aws-notification.git</connection>
         <developerConnection>scm:git:git@github.com:SMARTRACTECHNOLOGY/smartcosmos-service-aws-notification.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>aws-sns-notification-service-1.2</tag>
     </scm>
 
     <distributionManagement>
