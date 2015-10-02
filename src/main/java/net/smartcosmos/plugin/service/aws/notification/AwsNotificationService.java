@@ -41,6 +41,8 @@ import net.smartcosmos.model.base.EntityReferenceType;
 import net.smartcosmos.model.context.IAccount;
 import net.smartcosmos.model.event.EventType;
 import net.smartcosmos.model.integration.INotificationEndpoint;
+import net.smartcosmos.platform.api.annotation.ServiceExtension;
+import net.smartcosmos.platform.api.annotation.ServiceType;
 import net.smartcosmos.platform.api.oauth.INotificationResultObject;
 import net.smartcosmos.platform.api.service.IEventService;
 import net.smartcosmos.platform.api.service.INotificationService;
@@ -53,6 +55,7 @@ import org.slf4j.LoggerFactory;
 
 import static net.smartcosmos.Field.EVENT_TYPE;
 
+@ServiceExtension(serviceType = ServiceType.NOTIFICATION)
 public class AwsNotificationService extends AbstractAwsService<AWSCredentials>
         implements INotificationService
 {
