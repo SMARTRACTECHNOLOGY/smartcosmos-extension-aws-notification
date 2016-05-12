@@ -8,7 +8,7 @@
         <relativePath></relativePath>
     </parent>
     <artifactId>smartcosmos-extension-aws-notification</artifactId>
-    <version>2.0.2-SNAPSHOT</version>
+    <version>2.0.2</version>
 
     <name>SMART COSMOS AWS SNS Notification Service Extension</name>
     <description>A Notification Service Extension for SMART COSMOS</description>
@@ -59,7 +59,7 @@
     <scm>
         <connection>scm:git:git://github.com/SMARTRACTECHNOLOGY/smartcosmos-extension-aws-notification.git</connection>
         <developerConnection>scm:git:git@github.com:SMARTRACTECHNOLOGY/smartcosmos-extension-aws-notification.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>v2.0.2</tag>
         <url>https://github.com/SMARTRACTECHNOLOGY/smartcosmos-extension-aws-notification</url>
     </scm>
 
